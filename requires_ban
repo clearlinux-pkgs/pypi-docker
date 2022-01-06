@@ -1,0 +1,7 @@
+# This file contains runtime requirements that get picked up but are
+# undesirable. One entry per line, no whitespace.
+backports.ssl_match_hostname
+ipaddress
+enum34
+
+
