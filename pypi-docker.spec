@@ -4,7 +4,7 @@
 #
 Name     : pypi-docker
 Version  : 5.0.3
-Release  : 82
+Release  : 83
 URL      : https://files.pythonhosted.org/packages/ab/d2/45ea0ee13c6cffac96c32ac36db0299932447a736660537ec31ec3a6d877/docker-5.0.3.tar.gz
 Source0  : https://files.pythonhosted.org/packages/ab/d2/45ea0ee13c6cffac96c32ac36db0299932447a736660537ec31ec3a6d877/docker-5.0.3.tar.gz
 Summary  : A Python library for the Docker Engine API.
