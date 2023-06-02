@@ -4,10 +4,10 @@
 # Using build pattern: pyproject
 #
 Name     : pypi-docker
-Version  : 6.1.2
-Release  : 92
-URL      : https://files.pythonhosted.org/packages/d4/5f/48add223bfc02f7645b990418d1d3e01f6d4de7e6fcee31919f40129e893/docker-6.1.2.tar.gz
-Source0  : https://files.pythonhosted.org/packages/d4/5f/48add223bfc02f7645b990418d1d3e01f6d4de7e6fcee31919f40129e893/docker-6.1.2.tar.gz
+Version  : 6.1.3
+Release  : 93
+URL      : https://files.pythonhosted.org/packages/f0/73/f7c9a14e88e769f38cb7fb45aa88dfd795faa8e18aea11bababf6e068d5e/docker-6.1.3.tar.gz
+Source0  : https://files.pythonhosted.org/packages/f0/73/f7c9a14e88e769f38cb7fb45aa88dfd795faa8e18aea11bababf6e068d5e/docker-6.1.3.tar.gz
 Summary  : A Python library for the Docker Engine API.
 Group    : Development/Tools
 License  : Apache-2.0
@@ -65,10 +65,10 @@ python3 components for the pypi-docker package.
 
 
 %prep
-%setup -q -n docker-6.1.2
-cd %{_builddir}/docker-6.1.2
+%setup -q -n docker-6.1.3
+cd %{_builddir}/docker-6.1.3
 pushd ..
-cp -a docker-6.1.2 buildavx2
+cp -a docker-6.1.3 buildavx2
 popd
 
 %build
@@ -76,7 +76,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1683903288
+export SOURCE_DATE_EPOCH=1685718852
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fdebug-types-section -femit-struct-debug-baseonly -fno-lto -g1 -gno-column-info -gno-variable-location-views -gz=zstd "
 export FCFLAGS="$FFLAGS -fdebug-types-section -femit-struct-debug-baseonly -fno-lto -g1 -gno-column-info -gno-variable-location-views -gz=zstd "
