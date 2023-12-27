@@ -7,7 +7,7 @@
 #
 Name     : pypi-docker
 Version  : 7.0.0
-Release  : 95
+Release  : 96
 URL      : https://files.pythonhosted.org/packages/25/14/7d40f8f64ceca63c741ee5b5611ead4fb8d3bcaf3e6ab57d2ab0f01712bc/docker-7.0.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/25/14/7d40f8f64ceca63c741ee5b5611ead4fb8d3bcaf3e6ab57d2ab0f01712bc/docker-7.0.0.tar.gz
 Summary  : A Python library for the Docker Engine API.
